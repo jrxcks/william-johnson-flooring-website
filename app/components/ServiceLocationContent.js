@@ -4,7 +4,6 @@ import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 import Navbar from './Navbar'
-import Footer from './Footer'
 import { IMAGES } from '../utils/imageUrls'
 
 const ServicePage = styled.div`
@@ -83,9 +82,9 @@ const CTAButton = styled(Link)`
 
 const PhoneButton = styled.a`
   background: white;
-  color: ${props => props.$primaryColor};
+  color: #1a365d;
   padding: 15px 30px;
-  border: 2px solid ${props => props.$primaryColor};
+  border: none;
   border-radius: 8px;
   font-size: 1.1rem;
   font-weight: 600;
@@ -95,9 +94,9 @@ const PhoneButton = styled.a`
   transition: all 0.3s ease;
 
   &:hover {
-    background: ${props => props.$primaryColor};
-    color: white;
+    background: rgba(255, 255, 255, 0.9);
     transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
 `;
 
@@ -130,23 +129,37 @@ const BenefitsGrid = styled.div`
 const BenefitCard = styled.div`
   text-align: center;
   padding: 2rem;
-  background: white;
+  background: rgba(20, 20, 20, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   border-top: 4px solid ${props => props.$primaryColor};
   transition: all 0.3s ease;
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    border-color: rgba(255, 255, 255, 0.2);
   }
 
   h3 {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--text-dark);
+    color: white;
   }
+
+  p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+`;
+
+const IconArea = styled.div`
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
 `;
 
 const InfoGrid = styled.div`
@@ -188,6 +201,19 @@ const InfoCard = styled.div`
 const ServiceLocationContent = ({ service, location }) => {
   const backgroundImage = IMAGES.heroBackgrounds[service.heroImage] || IMAGES.heroBackgrounds.slide1;
 
+  // Icon mapping for benefits
+  const iconMap = {
+    water: '💧',
+    diamond: '💎', 
+    heart: '❤️',
+    clock: '⏰',
+    shield: '🛡️',
+    home: '🏠',
+    leaf: '🌿',
+    star: '⭐',
+    tools: '🔧'
+  };
+
   return (
     <ServicePage>
       <Navbar />
@@ -207,10 +233,9 @@ const ServiceLocationContent = ({ service, location }) => {
               Get Free Quote
             </CTAButton>
             <PhoneButton 
-              $primaryColor={service.color.primary}
               href="tel:07944425627"
             >
-              📞 Call: 07944 425627
+              Call: 07944 425627
             </PhoneButton>
           </div>
         </HeroContent>
@@ -228,7 +253,9 @@ const ServiceLocationContent = ({ service, location }) => {
                 key={index} 
                 $primaryColor={service.color.primary}
               >
-                <h3>{benefit}</h3>
+                <IconArea>{iconMap[benefit.icon] || '✨'}</IconArea>
+                <h3>{benefit.title}</h3>
+                <p>{benefit.description}</p>
               </BenefitCard>
             ))}
           </BenefitsGrid>
@@ -259,8 +286,6 @@ const ServiceLocationContent = ({ service, location }) => {
           </InfoGrid>
         </Container>
       </ContentSection>
-
-      <Footer />
     </ServicePage>
   );
 };

@@ -4,7 +4,6 @@ import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 import Navbar from './Navbar'
-import Footer from './Footer'
 import { IMAGES } from '../utils/imageUrls'
 
 const ServicePage = styled.div`
@@ -82,9 +81,9 @@ const CTAButton = styled(Link)`
 
 const PhoneButton = styled.a`
   background: white;
-  color: #22c55e;
+  color: #1a365d;
   padding: 15px 30px;
-  border: 2px solid #22c55e;
+  border: none;
   border-radius: 8px;
   font-size: 1.1rem;
   font-weight: 600;
@@ -94,9 +93,9 @@ const PhoneButton = styled.a`
   transition: all 0.3s ease;
 
   &:hover {
-    background: #22c55e;
-    color: white;
+    background: rgba(255, 255, 255, 0.9);
     transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
 `;
 
@@ -151,28 +150,35 @@ const ServicesGrid = styled.div`
 const ServiceCard = styled(Link)`
   display: block;
   padding: 2rem;
-  background: white;
+  background: rgba(20, 20, 20, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   text-decoration: none;
   color: inherit;
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    border-color: rgba(255, 255, 255, 0.2);
   }
 
   h4 {
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: var(--text-dark);
+    color: white;
   }
 
   p {
-    color: var(--text-medium);
+    color: rgba(255, 255, 255, 0.8);
     line-height: 1.5;
+    margin-bottom: 0.5rem;
+
+    strong {
+      color: white;
+    }
   }
 `;
 
@@ -191,7 +197,7 @@ const LocationContent = ({ locationData, services }) => {
           </p>
           <div>
             <CTAButton href="#contact">Get Free Quote</CTAButton>
-            <PhoneButton href="tel:07944425627">📞 Call: 07944 425627</PhoneButton>
+            <PhoneButton href="tel:07944425627">Call: 07944 425627</PhoneButton>
           </div>
         </HeroContent>
       </HeroSection>
@@ -235,8 +241,6 @@ const LocationContent = ({ locationData, services }) => {
           </ServicesGrid>
         </Container>
       </ContentSection>
-
-      <Footer />
     </ServicePage>
   );
 };
