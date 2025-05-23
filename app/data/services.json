@@ -1,0 +1,79 @@
+{
+  "services": [
+    {
+      "slug": "lvt-installation",
+      "name": "LVT Installation",
+      "shortName": "LVT",
+      "description": "Professional luxury vinyl tile installation",
+      "benefits": ["100% Waterproof", "Realistic Wood Look", "Pet Friendly", "Quick Installation"],
+      "priceRange": "Mid-range",
+      "duration": "1-2 days per room",
+      "suitableFor": ["Kitchens", "Bathrooms", "High-traffic areas", "Commercial spaces"],
+      "heroImage": "slide2",
+      "color": {
+        "primary": "#22c55e",
+        "secondary": "#16a34a"
+      }
+    },
+    {
+      "slug": "real-wood-flooring",
+      "name": "Real Wood Flooring",
+      "shortName": "Hardwood",
+      "description": "Expert solid and engineered hardwood installation",
+      "benefits": ["Natural Beauty", "Adds Property Value", "Can Be Refinished", "Timeless Appeal"],
+      "priceRange": "Premium",
+      "duration": "2-3 days per room",
+      "suitableFor": ["Living rooms", "Bedrooms", "Dining rooms", "Hallways"],
+      "heroImage": "slide4",
+      "color": {
+        "primary": "#8B4513",
+        "secondary": "#D2691E"
+      }
+    },
+    {
+      "slug": "laminate-flooring",
+      "name": "Laminate Flooring",
+      "shortName": "Laminate",
+      "description": "High-quality laminate flooring installation",
+      "benefits": ["Great Value", "Easy Maintenance", "Durable Surface", "Quick Installation"],
+      "priceRange": "Budget-friendly",
+      "duration": "1 day per room",
+      "suitableFor": ["Bedrooms", "Living areas", "Offices", "Rental properties"],
+      "heroImage": "slide3",
+      "color": {
+        "primary": "#22c55e",
+        "secondary": "#16a34a"
+      }
+    },
+    {
+      "slug": "carpet-installation",
+      "name": "Carpet Installation",
+      "shortName": "Carpet",
+      "description": "Expert carpet fitting with premium underlay",
+      "benefits": ["Ultimate Comfort", "Noise Reduction", "Thermal Insulation", "Safety"],
+      "priceRange": "Budget to Premium",
+      "duration": "Half day per room",
+      "suitableFor": ["Bedrooms", "Living rooms", "Stairs", "Offices"],
+      "heroImage": "slide1",
+      "color": {
+        "primary": "#a855f7",
+        "secondary": "#8b5cf6"
+      }
+    },
+    {
+      "slug": "commercial-flooring",
+      "name": "Commercial Flooring",
+      "shortName": "Commercial",
+      "description": "Professional commercial flooring solutions",
+      "benefits": ["Heavy Duty", "Low Maintenance", "Professional Appearance", "Cost Effective"],
+      "priceRange": "Competitive",
+      "duration": "1-5 days depending on area",
+      "suitableFor": ["Offices", "Retail spaces", "Healthcare", "Industrial"],
+      "heroImage": "slide3",
+      "color": {
+        "primary": "#f97316",
+        "secondary": "#ea580c"
+      }
+    }
+  ]
+} 

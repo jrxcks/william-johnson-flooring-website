@@ -1,0 +1,359 @@
+{
+  "services": [
+    {
+      "slug": "lvt-installation",
+      "name": "LVT Installation",
+      "shortName": "LVT",
+      "description": "Transform your space with luxury vinyl tile flooring that combines stunning aesthetics with unbeatable durability and water resistance.",
+      "fullDescription": "Professional LVT installation combining realistic wood and stone looks with 100% waterproof protection. Perfect for busy households and high-moisture areas.",
+      "benefits": [
+        {
+          "title": "100% Waterproof Protection",
+          "description": "Completely immune to water damage, making it perfect for bathrooms, kitchens, and high-moisture areas.",
+          "icon": "water",
+          "features": ["Resistant to spills and floods", "No warping or swelling", "Easy cleanup"]
+        },
+        {
+          "title": "Realistic Wood & Stone Looks",
+          "description": "Advanced printing technology creates incredibly authentic textures that rival natural materials.",
+          "icon": "diamond",
+          "features": ["High-definition printing", "Embossed textures", "Varied plank patterns"]
+        },
+        {
+          "title": "Pet & Child Friendly",
+          "description": "Scratch-resistant surface that stands up to pets, children, and heavy foot traffic.",
+          "icon": "heart",
+          "features": ["Scratch resistant", "Stain resistant", "Non-toxic materials"]
+        },
+        {
+          "title": "Quick Professional Installation",
+          "description": "Our expert team ensures fast, clean installation with minimal disruption to your routine.",
+          "icon": "clock",
+          "features": ["Same-day completion possible", "Clean installation process", "Immediate use after installation"]
+        },
+        {
+          "title": "Long-Term Durability",
+          "description": "Commercial-grade wear layer ensures your floors look new for years to come.",
+          "icon": "shield",
+          "features": ["20+ year lifespan", "Fade resistant", "Easy maintenance"]
+        },
+        {
+          "title": "Comfort & Warmth",
+          "description": "Softer underfoot than traditional hard flooring with excellent thermal properties.",
+          "icon": "home",
+          "features": ["Comfortable walking surface", "Good insulation properties", "Compatible with underfloor heating"]
+        }
+      ],
+      "process": [
+        {
+          "title": "Site Survey & Consultation",
+          "description": "We assess your space, discuss your needs, and provide detailed recommendations and quotes."
+        },
+        {
+          "title": "Preparation & Planning",
+          "description": "Professional preparation includes floor leveling, moisture testing, and planning the layout."
+        },
+        {
+          "title": "Expert Installation",
+          "description": "Our certified installers use professional tools and techniques for perfect results."
+        },
+        {
+          "title": "Quality Check & Handover",
+          "description": "Final inspection, cleanup, and handover with care instructions and warranty information."
+        }
+      ],
+      "priceRange": "£25-45 per m²",
+      "duration": "1-2 days per room",
+      "suitableFor": ["Kitchens", "Bathrooms", "High-traffic areas", "Commercial spaces", "Basements"],
+      "heroImage": "/images/hero/backgrounds/hero-bg-2.jpg",
+      "color": {
+        "primary": "#22c55e",
+        "secondary": "#16a34a"
+      }
+    },
+    {
+      "slug": "real-wood-flooring",
+      "name": "Real Wood Flooring",
+      "shortName": "Hardwood",
+      "description": "Experience the timeless elegance and natural beauty of solid and engineered hardwood flooring, expertly installed to enhance your home's value and appeal.",
+      "fullDescription": "Expert hardwood installation bringing natural beauty and character to your space. Increases property value with timeless appeal that lasts generations.",
+      "benefits": [
+        {
+          "title": "Natural Beauty & Character",
+          "description": "Each plank is unique with natural grain patterns, colors, and character that synthetic materials cannot replicate.",
+          "icon": "leaf",
+          "features": ["Unique grain patterns", "Natural color variations", "Authentic wood texture"]
+        },
+        {
+          "title": "Increases Property Value",
+          "description": "Real wood flooring is a premium feature that significantly enhances your home's market value.",
+          "icon": "star",
+          "features": ["High ROI investment", "Attracts premium buyers", "Timeless appeal"]
+        },
+        {
+          "title": "Can Be Refinished",
+          "description": "Unlike other flooring types, real wood can be sanded and refinished multiple times to look like new.",
+          "icon": "tools",
+          "features": ["Multiple refinishing cycles", "Restore original beauty", "Change stain colors"]
+        },
+        {
+          "title": "Durability & Longevity",
+          "description": "With proper care, hardwood floors can last for decades, even generations.",
+          "icon": "shield",
+          "features": ["50+ year lifespan", "Withstands heavy traffic", "Improves with age"]
+        },
+        {
+          "title": "Health & Air Quality",
+          "description": "Natural wood doesn't trap allergens and contributes to better indoor air quality.",
+          "icon": "heart",
+          "features": ["Hypoallergenic properties", "No chemical emissions", "Easy to keep clean"]
+        },
+        {
+          "title": "Comfort & Insulation",
+          "description": "Natural thermal properties provide excellent insulation and comfortable walking surface.",
+          "icon": "home",
+          "features": ["Natural insulation", "Comfortable temperature", "Reduces noise"]
+        }
+      ],
+      "process": [
+        {
+          "title": "Wood Selection & Planning",
+          "description": "Choose from our premium wood species and plan the perfect layout for your space."
+        },
+        {
+          "title": "Subfloor Preparation",
+          "description": "Ensure perfect subfloor conditions with leveling, moisture control, and structural assessment."
+        },
+        {
+          "title": "Professional Installation",
+          "description": "Expert installation using traditional or modern techniques depending on your wood type."
+        },
+        {
+          "title": "Finishing & Protection",
+          "description": "Apply protective finishes and conduct final quality checks for perfect results."
+        }
+      ],
+      "priceRange": "£45-85 per m²",
+      "duration": "2-3 days per room",
+      "suitableFor": ["Living rooms", "Bedrooms", "Dining rooms", "Hallways", "Home offices"],
+      "heroImage": "/images/hero/backgrounds/hero-bg-4.jpg",
+      "color": {
+        "primary": "#8B4513",
+        "secondary": "#D2691E"
+      }
+    },
+    {
+      "slug": "laminate-flooring",
+      "name": "Laminate Flooring",
+      "shortName": "Laminate",
+      "description": "High-quality laminate flooring installation offering the perfect balance of style, durability, and affordability for modern living spaces.",
+      "fullDescription": "Premium laminate flooring delivering the sophisticated look of hardwood at a fraction of the cost. Quick installation with exceptional durability.",
+      "benefits": [
+        {
+          "title": "Exceptional Value",
+          "description": "Get the luxury look of expensive materials without the premium price tag.",
+          "icon": "star",
+          "features": ["Cost-effective solution", "High-end appearance", "Great ROI"]
+        },
+        {
+          "title": "Easy Maintenance",
+          "description": "Simple cleaning routine keeps your floors looking perfect with minimal effort.",
+          "icon": "tools",
+          "features": ["Vacuum and mop", "Stain resistant surface", "No special treatments needed"]
+        },
+        {
+          "title": "Scratch & Wear Resistant",
+          "description": "Durable surface layer protects against daily wear, scratches, and impact damage.",
+          "icon": "shield",
+          "features": ["High AC rating", "Impact resistant", "Fade resistant"]
+        },
+        {
+          "title": "Quick Installation",
+          "description": "Click-lock technology allows for fast, precise installation with minimal disruption.",
+          "icon": "clock",
+          "features": ["Floating floor system", "No nails or glue", "Walk on immediately"]
+        },
+        {
+          "title": "Versatile Design Options",
+          "description": "Wide range of colors, textures, and patterns to match any décor style.",
+          "icon": "diamond",
+          "features": ["Wood, stone, tile looks", "Multiple widths and lengths", "Textured surfaces"]
+        },
+        {
+          "title": "Family Friendly",
+          "description": "Safe, non-toxic surface that's comfortable for children and pets.",
+          "icon": "heart",
+          "features": ["Non-toxic materials", "Comfortable underfoot", "Hygienic surface"]
+        }
+      ],
+      "process": [
+        {
+          "title": "Design Consultation",
+          "description": "Select from our extensive range of laminate options to match your style and budget."
+        },
+        {
+          "title": "Floor Preparation",
+          "description": "Prepare the subfloor with appropriate underlayment for optimal performance."
+        },
+        {
+          "title": "Precision Installation",
+          "description": "Install using click-lock technology for perfectly aligned, gap-free results."
+        },
+        {
+          "title": "Finishing Touches",
+          "description": "Install transitions, trim, and conduct final quality inspection."
+        }
+      ],
+      "priceRange": "£18-35 per m²",
+      "duration": "1 day per room",
+      "suitableFor": ["Bedrooms", "Living areas", "Offices", "Rental properties", "Basements"],
+      "heroImage": "/images/hero/backgrounds/hero-bg-3.jpg",
+      "color": {
+        "primary": "#22c55e",
+        "secondary": "#16a34a"
+      }
+    },
+    {
+      "slug": "carpet-installation",
+      "name": "Carpet Installation",
+      "shortName": "Carpet",
+      "description": "Professional carpet installation with premium underlay for ultimate comfort, warmth, and style in your home or office space.",
+      "fullDescription": "Expert carpet installation providing ultimate comfort and warmth. Perfect sound absorption and thermal insulation for cozy living spaces.",
+      "benefits": [
+        {
+          "title": "Ultimate Comfort",
+          "description": "Soft, cushioned surface provides unmatched comfort for walking, sitting, and playing.",
+          "icon": "heart",
+          "features": ["Soft underfoot", "Cushioned surface", "Comfortable for children"]
+        },
+        {
+          "title": "Superior Noise Reduction",
+          "description": "Excellent sound absorption properties create a quieter, more peaceful environment.",
+          "icon": "home",
+          "features": ["Reduces footstep noise", "Sound absorption", "Privacy enhancement"]
+        },
+        {
+          "title": "Thermal Insulation",
+          "description": "Natural insulation properties help maintain comfortable temperatures and reduce energy costs.",
+          "icon": "fire",
+          "features": ["Excellent insulation", "Energy savings", "Warmth retention"]
+        },
+        {
+          "title": "Safety Features",
+          "description": "Non-slip surface provides secure footing and cushioning against falls.",
+          "icon": "shield",
+          "features": ["Slip resistance", "Cushioned falls", "Safe for elderly"]
+        },
+        {
+          "title": "Design Versatility",
+          "description": "Unlimited colors, patterns, and textures to create any design aesthetic.",
+          "icon": "diamond",
+          "features": ["Endless color options", "Pattern variety", "Texture choices"]
+        },
+        {
+          "title": "Air Quality Benefits",
+          "description": "Quality carpets can trap allergens and dust, improving overall air quality when properly maintained.",
+          "icon": "leaf",
+          "features": ["Traps allergens", "Improves air quality", "Easy to clean"]
+        }
+      ],
+      "process": [
+        {
+          "title": "Carpet & Underlay Selection",
+          "description": "Choose from our extensive range of carpets and select the ideal underlay for your needs."
+        },
+        {
+          "title": "Accurate Measuring",
+          "description": "Precise measurements ensure minimal waste and perfect fit in your space."
+        },
+        {
+          "title": "Professional Fitting",
+          "description": "Expert installation with proper stretching, seaming, and finishing techniques."
+        },
+        {
+          "title": "Final Inspection",
+          "description": "Quality check and cleanup, leaving your space ready to enjoy immediately."
+        }
+      ],
+      "priceRange": "£15-65 per m²",
+      "duration": "Half day per room",
+      "suitableFor": ["Bedrooms", "Living rooms", "Stairs", "Offices", "Hotels"],
+      "heroImage": "/images/hero/backgrounds/hero-bg-1.jpg",
+      "color": {
+        "primary": "#a855f7",
+        "secondary": "#8b5cf6"
+      }
+    },
+    {
+      "slug": "commercial-flooring",
+      "name": "Commercial Flooring",
+      "shortName": "Commercial",
+      "description": "Professional commercial flooring solutions designed for high-traffic environments, offering durability, safety, and professional appearance.",
+      "fullDescription": "Heavy-duty commercial flooring solutions for businesses. Durable, low-maintenance options that withstand intensive use while maintaining professional appearance.",
+      "benefits": [
+        {
+          "title": "Heavy-Duty Performance",
+          "description": "Engineered to withstand intensive commercial use and high foot traffic volumes.",
+          "icon": "shield",
+          "features": ["High traffic rated", "Impact resistant", "Long-lasting performance"]
+        },
+        {
+          "title": "Low Maintenance Requirements",
+          "description": "Designed for easy cleaning and maintenance to minimize operational costs and downtime.",
+          "icon": "tools",
+          "features": ["Easy cleaning protocols", "Minimal maintenance", "Cost-effective upkeep"]
+        },
+        {
+          "title": "Professional Appearance",
+          "description": "Sophisticated designs that enhance your business image and create positive first impressions.",
+          "icon": "star",
+          "features": ["Professional aesthetics", "Brand enhancement", "Impressive appearance"]
+        },
+        {
+          "title": "Safety Standards",
+          "description": "Meets all commercial safety requirements including slip resistance and fire ratings.",
+          "icon": "shield",
+          "features": ["Anti-slip properties", "Fire rated options", "Safety compliant"]
+        },
+        {
+          "title": "Cost-Effective Solution",
+          "description": "Competitive pricing with excellent value for money and long-term cost benefits.",
+          "icon": "star",
+          "features": ["Competitive pricing", "Excellent value", "Long-term savings"]
+        },
+        {
+          "title": "Minimal Disruption",
+          "description": "Efficient installation process designed to minimize business interruption.",
+          "icon": "clock",
+          "features": ["Fast installation", "Out-of-hours options", "Minimal downtime"]
+        }
+      ],
+      "process": [
+        {
+          "title": "Site Assessment",
+          "description": "Comprehensive evaluation of your space, traffic patterns, and specific business requirements."
+        },
+        {
+          "title": "Solution Design",
+          "description": "Custom flooring solution designed to meet your aesthetic, functional, and budget requirements."
+        },
+        {
+          "title": "Scheduled Installation",
+          "description": "Professional installation scheduled to minimize business disruption, including out-of-hours options."
+        },
+        {
+          "title": "Quality Assurance",
+          "description": "Final inspection and handover with maintenance guidelines and warranty documentation."
+        }
+      ],
+      "priceRange": "£20-55 per m²",
+      "duration": "1-5 days depending on area",
+      "suitableFor": ["Offices", "Retail spaces", "Healthcare facilities", "Industrial areas", "Schools"],
+      "heroImage": "/images/hero/backgrounds/hero-bg-3.jpg",
+      "color": {
+        "primary": "#f97316",
+        "secondary": "#ea580c"
+      }
+    }
+  ]
+} 

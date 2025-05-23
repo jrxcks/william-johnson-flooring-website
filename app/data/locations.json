@@ -1,0 +1,224 @@
+{
+  "locations": [
+    {
+      "slug": "birmingham",
+      "name": "Birmingham",
+      "county": "West Midlands",
+      "region": "Midlands",
+      "population": "1,144,900",
+      "coordinates": [52.4862, -1.8904],
+      "postcodePrefixes": ["B1", "B2", "B3", "B4", "B5"],
+      "localInfo": {
+        "description": "Birmingham is the UK's second-largest city, known for its diverse housing from Victorian terraces in areas like Moseley to modern developments in the city center.",
+        "popularAreas": ["Edgbaston", "Moseley", "Harborne", "Kings Heath", "Sutton Coldfield", "Solihull"],
+        "housing": "Mix of Victorian terraces, Edwardian semis, modern apartments, and new-build developments",
+        "flooring": "High demand for luxury vinyl and engineered hardwood in period properties. Commercial spaces favor LVT for durability.",
+        "demographics": "Young professionals and families seeking quality flooring solutions",
+        "localLandmarks": ["Bullring", "Birmingham Museum", "Cadbury World"]
+      },
+      "seo": {
+        "title": "Professional Flooring Services in Birmingham | William Johnson Flooring",
+        "description": "Expert flooring installation in Birmingham & West Midlands. LVT, hardwood, carpet & commercial flooring. 25+ years experience. Free quotes - Call 07944 425627",
+        "keywords": ["flooring Birmingham", "carpet fitting Birmingham", "LVT installation Birmingham", "flooring West Midlands"]
+      }
+    },
+    {
+      "slug": "leicester",
+      "name": "Leicester",
+      "county": "Leicestershire",
+      "region": "Midlands", 
+      "population": "368,600",
+      "coordinates": [52.6369, -1.1398],
+      "postcodePrefixes": ["LE1", "LE2", "LE3", "LE4", "LE5"],
+      "localInfo": {
+        "description": "Leicester combines historic charm with modern living, featuring diverse property types from Victorian terraces to contemporary developments.",
+        "popularAreas": ["Oadby", "Stoneygate", "Clarendon Park", "Knighton", "Wigston", "Braunstone"],
+        "housing": "Victorian terraces, 1930s semis, post-war estates, and new build developments",
+        "flooring": "Growing market for luxury flooring in renovated properties and modern developments",
+        "demographics": "Diverse community with strong demand for quality, durable flooring",
+        "localLandmarks": ["Leicester Cathedral", "King Power Stadium", "New Walk Museum"]
+      },
+      "seo": {
+        "title": "Professional Flooring Services in Leicester | William Johnson Flooring",
+        "description": "Expert flooring installation in Leicester & Leicestershire. LVT, hardwood, carpet & commercial flooring specialists. Free quotes - Call 07944 425627",
+        "keywords": ["flooring Leicester", "carpet fitting Leicester", "LVT installation Leicester", "flooring Leicestershire"]
+      }
+    },
+    {
+      "slug": "coventry",
+      "name": "Coventry",
+      "county": "West Midlands",
+      "region": "Midlands",
+      "population": "345,300",
+      "coordinates": [52.4068, -1.5197],
+      "postcodePrefixes": ["CV1", "CV2", "CV3", "CV4", "CV5"],
+      "localInfo": {
+        "description": "Coventry is a historic city undergoing regeneration, with a mix of traditional housing and new developments throughout the city.",
+        "popularAreas": ["Canley", "Earlsdon", "Tile Hill", "Binley", "Coundon", "Wyken"],
+        "housing": "Post-war rebuilding mixed with Victorian survivors, modern estates, and new developments",
+        "flooring": "Strong demand for both residential and commercial flooring solutions in regenerating areas",
+        "demographics": "Families and professionals looking for quality flooring in period and modern homes",
+        "localLandmarks": ["Coventry Cathedral", "Transport Museum", "Herbert Art Gallery"]
+      },
+      "seo": {
+        "title": "Professional Flooring Services in Coventry | William Johnson Flooring",
+        "description": "Expert flooring installation in Coventry & West Midlands. LVT, hardwood, carpet & commercial flooring. Competitive prices - Call 07944 425627",
+        "keywords": ["flooring Coventry", "carpet fitting Coventry", "LVT installation Coventry", "flooring West Midlands"]
+      }
+    },
+    {
+      "slug": "wolverhampton",
+      "name": "Wolverhampton",
+      "county": "West Midlands",
+      "region": "Midlands",
+      "population": "263,700",
+      "coordinates": [52.5833, -2.1333],
+      "postcodePrefixes": ["WV1", "WV2", "WV3", "WV4", "WV6"],
+      "localInfo": {
+        "description": "Wolverhampton offers a blend of Victorian architecture and modern developments, with growing investment in residential and commercial properties.",
+        "popularAreas": ["Tettenhall", "Penn", "Bilston", "Wednesfield", "Codsall"],
+        "housing": "Victorian terraces, inter-war semis, council estates, and new residential developments",
+        "flooring": "Increasing demand for modern flooring solutions in both period renovations and new builds",
+        "demographics": "Diverse population with growing interest in home improvements and quality flooring",
+        "localLandmarks": ["Wolverhampton Art Gallery", "West Park", "Molineux Stadium"]
+      },
+      "seo": {
+        "title": "Professional Flooring Services in Wolverhampton | William Johnson Flooring",
+        "description": "Expert flooring installation in Wolverhampton & surrounding areas. LVT, hardwood, carpet & commercial flooring. Free estimates - Call 07944 425627",
+        "keywords": ["flooring Wolverhampton", "carpet fitting Wolverhampton", "LVT installation Wolverhampton"]
+      }
+    },
+    {
+      "slug": "worcester",
+      "name": "Worcester",
+      "county": "Worcestershire",
+      "region": "Midlands",
+      "population": "103,900",
+      "coordinates": [52.1923, -2.2218],
+      "postcodePrefixes": ["WR1", "WR2", "WR3", "WR4", "WR5"],
+      "localInfo": {
+        "description": "Worcester is a historic cathedral city with charming period properties and modern developments along the River Severn.",
+        "popularAreas": ["St. Johns", "Barbourne", "Claines", "Dines Green", "Fernhill Heath"],
+        "housing": "Medieval buildings, Georgian townhouses, Victorian terraces, and contemporary riverside developments",
+        "flooring": "High-end flooring demand in period properties and luxury developments",
+        "demographics": "Affluent families and professionals seeking premium flooring solutions",
+        "localLandmarks": ["Worcester Cathedral", "Royal Worcester Porcelain", "The Commandery"]
+      },
+      "seo": {
+        "title": "Professional Flooring Services in Worcester | William Johnson Flooring",
+        "description": "Expert flooring installation in Worcester & Worcestershire. Specialist in period property flooring. LVT, hardwood, carpet fitting - Call 07944 425627",
+        "keywords": ["flooring Worcester", "period property flooring Worcester", "LVT installation Worcester", "carpet fitting Worcestershire"]
+      }
+    },
+    {
+      "slug": "derby",
+      "name": "Derby",
+      "county": "Derbyshire",
+      "region": "Midlands",
+      "population": "261,400",
+      "coordinates": [52.9225, -1.4746],
+      "postcodePrefixes": ["DE1", "DE21", "DE22", "DE23", "DE24"],
+      "localInfo": {
+        "description": "Derby is an industrial heritage city with a mix of period properties and modern developments, known for its aerospace and automotive industries.",
+        "popularAreas": ["Mickleover", "Allestree", "Chaddesden", "Littleover", "Oakwood"],
+        "housing": "Georgian and Victorian terraces, 1960s estates, modern suburban developments",
+        "flooring": "Strong commercial and residential demand, particularly in family homes and industrial conversions",
+        "demographics": "Working families and professionals requiring durable, practical flooring solutions",
+        "localLandmarks": ["Derby Museum", "Pickford's House", "Derby Cathedral"]
+      },
+      "seo": {
+        "title": "Professional Flooring Services in Derby | William Johnson Flooring",
+        "description": "Expert flooring installation in Derby & Derbyshire. Commercial & residential flooring specialists. LVT, carpet, hardwood - Call 07944 425627",
+        "keywords": ["flooring Derby", "commercial flooring Derby", "LVT installation Derby", "carpet fitting Derbyshire"]
+      }
+    },
+    {
+      "slug": "nottingham",
+      "name": "Nottingham",
+      "county": "Nottinghamshire",
+      "region": "Midlands",
+      "population": "321,500",
+      "coordinates": [52.9538, -1.1581],
+      "postcodePrefixes": ["NG1", "NG2", "NG3", "NG5", "NG7"],
+      "localInfo": {
+        "description": "Nottingham is a vibrant university city with diverse housing from Victorian terraces to modern student accommodations and family developments.",
+        "popularAreas": ["West Bridgford", "Beeston", "Mapperley", "Sherwood", "The Park"],
+        "housing": "Victorian and Edwardian terraces, student properties, modern apartments, and suburban family homes",
+        "flooring": "High demand for both luxury residential and commercial flooring, plus student-friendly solutions",
+        "demographics": "Students, young professionals, and families seeking quality flooring",
+        "localLandmarks": ["Nottingham Castle", "City of Caves", "Old Market Square"]
+      },
+      "seo": {
+        "title": "Professional Flooring Services in Nottingham | William Johnson Flooring",
+        "description": "Expert flooring installation in Nottingham & Nottinghamshire. University city specialists. LVT, carpet, commercial flooring - Call 07944 425627",
+        "keywords": ["flooring Nottingham", "student accommodation flooring", "LVT installation Nottingham", "commercial flooring Nottinghamshire"]
+      }
+    },
+    {
+      "slug": "warwick",
+      "name": "Warwick",
+      "county": "Warwickshire",
+      "region": "Midlands",
+      "population": "37,300",
+      "coordinates": [52.2850, -1.5849],
+      "postcodePrefixes": ["CV34", "CV35"],
+      "localInfo": {
+        "description": "Warwick is a historic market town with beautiful period properties and modern developments, popular with commuters to Birmingham and Coventry.",
+        "popularAreas": ["Leamington Spa", "Kenilworth", "Barford", "Hampton Magna"],
+        "housing": "Medieval buildings, Georgian townhouses, Victorian villas, and executive modern homes",
+        "flooring": "Premium flooring demand in historic and luxury properties",
+        "demographics": "Affluent professionals and retirees seeking high-quality flooring solutions",
+        "localLandmarks": ["Warwick Castle", "St. Mary's Church", "Lord Leycester Hospital"]
+      },
+      "seo": {
+        "title": "Professional Flooring Services in Warwick | William Johnson Flooring",
+        "description": "Expert flooring installation in Warwick & Warwickshire. Specialist in historic property flooring. Premium LVT, hardwood - Call 07944 425627",
+        "keywords": ["flooring Warwick", "historic property flooring", "luxury flooring Warwickshire", "LVT installation Warwick"]
+      }
+    },
+    {
+      "slug": "nuneaton",
+      "name": "Nuneaton",
+      "county": "Warwickshire",
+      "region": "Midlands",
+      "population": "92,600",
+      "coordinates": [52.5230, -1.4685],
+      "postcodePrefixes": ["CV10", "CV11"],
+      "localInfo": {
+        "description": "Nuneaton is a market town with a mix of period terraces and modern housing estates, popular with families and commuters.",
+        "popularAreas": ["Bedworth", "Bulkington", "Hartshill", "Attleborough"],
+        "housing": "Victorian terraces, inter-war semis, modern estates, and new developments",
+        "flooring": "Strong family market demand for practical, durable flooring solutions",
+        "demographics": "Working families seeking value-for-money quality flooring",
+        "localLandmarks": ["Nuneaton Museum", "Riversley Park", "Arbury Hall"]
+      },
+      "seo": {
+        "title": "Professional Flooring Services in Nuneaton | William Johnson Flooring",
+        "description": "Expert flooring installation in Nuneaton & Bedworth. Family-friendly flooring specialists. LVT, carpet, laminate - Call 07944 425627",
+        "keywords": ["flooring Nuneaton", "family flooring Bedworth", "LVT installation Nuneaton", "carpet fitting Warwickshire"]
+      }
+    },
+    {
+      "slug": "tamworth",
+      "name": "Tamworth",
+      "county": "Staffordshire",
+      "region": "Midlands",
+      "population": "78,600",
+      "coordinates": [52.6336, -1.6914],
+      "postcodePrefixes": ["B77", "B78", "B79"],
+      "localInfo": {
+        "description": "Tamworth is a historic market town with Saxon heritage, featuring traditional housing and modern developments near the border of Staffordshire and Warwickshire.",
+        "popularAreas": ["Wilnecote", "Glascote", "Fazeley", "Dosthill"],
+        "housing": "Period cottages, Victorian terraces, post-war estates, and modern family developments",
+        "flooring": "Growing demand for modern flooring in period property renovations and new builds",
+        "demographics": "Families and commuters seeking practical, attractive flooring solutions",
+        "localLandmarks": ["Tamworth Castle", "SnowDome", "Drayton Manor"]
+      },
+      "seo": {
+        "title": "Professional Flooring Services in Tamworth | William Johnson Flooring",
+        "description": "Expert flooring installation in Tamworth & South Staffordshire. Period property specialists. LVT, carpet, hardwood - Call 07944 425627",
+        "keywords": ["flooring Tamworth", "period property flooring Staffordshire", "LVT installation Tamworth"]
+      }
+    }
+  ]
+} 
