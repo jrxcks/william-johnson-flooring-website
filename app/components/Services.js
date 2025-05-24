@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
+import Image from 'next/image';
 
 const ServicesSection = styled.section`
   padding: 8rem 0;
@@ -250,9 +251,11 @@ const Services = () => {
           {services.map((service, index) => (
             <ServiceItem key={index} href={service.link}>
               <ServiceIcon>
-                <img
+                <Image
                   src={service.icon}
                   alt={`${service.title} icon`}
+                  width={40}
+                  height={40}
                   loading="lazy"
                 />
               </ServiceIcon>

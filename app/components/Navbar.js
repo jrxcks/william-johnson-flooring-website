@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import styled from 'styled-components';
+import Image from 'next/image';
 import { IMAGES } from '../utils/imageUrls';
 
 const NavbarContainer = styled.div.withConfig({
@@ -472,10 +473,12 @@ const Navbar = () => {
       <NavbarContainer $scrolled={scrolled}>
         <NavbarWrapper>
           <Logo href="/" $scrolled={scrolled}>
-            <img 
+            <Image 
               src={IMAGES.logo.main}
               alt="William Johnson Flooring Logo" 
-              width="225"
+              width={225}
+              height={75}
+              priority
             />
           </Logo>
 
@@ -483,10 +486,12 @@ const Navbar = () => {
             <CloseButton onClick={closeMenus}>×</CloseButton>
             
             <MobileLogo>
-              <img 
+              <Image 
                 src={IMAGES.logo.main}
                 alt="William Johnson Flooring Logo" 
-                width="180"
+                width={180}
+                height={60}
+                priority
               />
             </MobileLogo>
             

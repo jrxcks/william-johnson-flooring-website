@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { generateGalleryImages } from '../utils/imageUrls';
+import Image from 'next/image';
 
 const GallerySection = styled.section`
   padding: 8rem 0;
@@ -225,7 +226,7 @@ const Gallery = () => {
   // Function to check if an image exists
   const checkImageExists = (url) => {
     return new Promise((resolve) => {
-      const img = new Image();
+      const img = new globalThis.Image();
       img.onload = () => resolve(url);
       img.onerror = () => resolve(null);
       img.src = url;
@@ -338,9 +339,12 @@ const Gallery = () => {
               <GallerySlide key={slideIndex}>
                 {slide.map((image, imageIndex) => (
                   <GalleryItem key={imageIndex}>
-                    <img
+                    <Image
                       src={image}
                       alt={`Gallery image ${slideIndex * 9 + imageIndex + 1}`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      style={{ objectFit: 'cover' }}
                       loading="lazy"
                     />
                   </GalleryItem>

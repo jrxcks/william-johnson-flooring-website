@@ -3,6 +3,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
+import Image from 'next/image';
 import { IMAGES } from '../utils/imageUrls';
 import locations from '../data/locations.json';
 
@@ -258,18 +259,18 @@ const Footer = () => {
     return acc;
   }, {});
 
-  // Top services for SEO links
-  const topServices = ['lvt-installation', 'real-wood-flooring', 'laminate-flooring', 'carpet-installation'];
-
   return (
     <FooterSection>
       <Container>
         <FooterContent>
           <FooterColumn>
             <CompanyInfo>
-              <img 
+              <Image 
                 src={IMAGES.logo.main}
                 alt="William Johnson Flooring Logo"
+                width={180}
+                height={60}
+                priority
               />
               <p>
                 Professional flooring solutions with over a decade of experience. 

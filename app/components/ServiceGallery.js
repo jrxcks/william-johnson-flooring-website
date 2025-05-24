@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import Image from 'next/image'
 
 const GallerySection = styled.section`
   padding: 8rem 0;
@@ -90,13 +91,6 @@ const GalleryItem = styled.div`
       transform: scale(1.05);
     }
   }
-`
-
-const GalleryImage = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all 0.4s ease;
 `
 
 const GalleryOverlay = styled.div`
@@ -299,10 +293,13 @@ const ServiceGallery = ({ serviceName, serviceSlug }) => {
           <GalleryGrid>
             {displayImages.map((image, index) => (
               <GalleryItem key={index} onClick={() => openModal(image)}>
-                <GalleryImage
+                <Image
                   className="gallery-image"
                   src={image.src}
                   alt={image.alt}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  style={{ objectFit: 'cover' }}
                   loading={index < 3 ? "eager" : "lazy"}
                   onError={(e) => {
                     // Fallback to a placeholder or different image if the primary doesn't load
@@ -331,10 +328,13 @@ const ServiceGallery = ({ serviceName, serviceSlug }) => {
         <Modal onClick={handleBackdropClick}>
           <ModalContent>
             <CloseButton onClick={closeModal}>×</CloseButton>
-            <img
+            <Image
               src={selectedImage.src}
               alt={selectedImage.alt}
               title={selectedImage.title}
+              width={800}
+              height={600}
+              style={{ objectFit: 'contain', maxWidth: '100%', height: 'auto' }}
             />
           </ModalContent>
         </Modal>
