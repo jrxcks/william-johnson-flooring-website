@@ -24,9 +24,10 @@ const HeroSection = styled.section`
   background-attachment: fixed;
   
   @media (max-width: 767px) {
-    height: 70vh;
-    min-height: 500px;
+    height: 100vh;
+    min-height: 700px;
     background-attachment: scroll;
+    padding: 80px 0 40px 0;
   }
 `;
 
@@ -43,7 +44,9 @@ const HeroContent = styled.div`
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     
     @media (max-width: 767px) {
-      font-size: 2.5rem;
+      font-size: 2.2rem;
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
     }
   }
 
@@ -55,6 +58,17 @@ const HeroContent = styled.div`
     
     @media (max-width: 767px) {
       font-size: 1.1rem;
+      line-height: 1.5;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  div {
+    @media (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
     }
   }
 `;
@@ -77,6 +91,14 @@ const CTAButton = styled(Link)`
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(34, 197, 94, 0.3);
   }
+
+  @media (max-width: 767px) {
+    width: 280px;
+    max-width: 90vw;
+    margin: 0 0 15px 0;
+    text-align: center;
+    padding: 18px 25px;
+  }
 `;
 
 const PhoneButton = styled.a`
@@ -96,6 +118,14 @@ const PhoneButton = styled.a`
     background: rgba(255, 255, 255, 0.9);
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  @media (max-width: 767px) {
+    width: 280px;
+    max-width: 90vw;
+    margin: 0;
+    text-align: center;
+    padding: 18px 25px;
   }
 `;
 

@@ -4,6 +4,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 import { IMAGES } from '../utils/imageUrls';
+import locations from '../data/locations.json';
 
 const FooterSection = styled.footer`
   background: var(--background-darker);
@@ -170,8 +171,95 @@ const FooterBottom = styled.div`
   }
 `;
 
+// New styled components for location links
+const LocationLinksSection = styled.div`
+  border-top: 1px solid var(--glass-border);
+  padding-top: 3rem;
+  margin-top: 2rem;
+`;
+
+const LocationTitle = styled.h4`
+  color: var(--text-dark);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 2px;
+    background: white;
+    border-radius: 1px;
+  }
+`;
+
+const LocationGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+`;
+
+const LocationGroup = styled.div`
+  h5 {
+    color: var(--text-dark);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--glass-border);
+    padding-bottom: 0.5rem;
+  }
+`;
+
+const LocationLinks = styled.ul`
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  li {
+    margin-bottom: 0.6rem;
+  }
+  
+  a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    display: block;
+    padding: 0.3rem 0;
+    
+    &:hover {
+      color: white;
+      transform: translateX(3px);
+    }
+  }
+`;
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+  // Organize locations by county for better UX
+  const locationsByCounty = locations.locations.reduce((acc, location) => {
+    const county = location.county;
+    if (!acc[county]) {
+      acc[county] = [];
+    }
+    acc[county].push(location);
+    return acc;
+  }, {});
+
+  // Top services for SEO links
+  const topServices = ['lvt-installation', 'real-wood-flooring', 'laminate-flooring', 'carpet-installation'];
 
   return (
     <FooterSection>
@@ -226,6 +314,37 @@ const Footer = () => {
             </ul>
           </FooterColumn>
         </FooterContent>
+
+        {/* SEO Location Links Section */}
+        <LocationLinksSection>
+          <LocationTitle>Professional Flooring Services By Location</LocationTitle>
+          <LocationGrid>
+            {Object.entries(locationsByCounty).map(([county, countyLocations]) => (
+              <LocationGroup key={county}>
+                <h5>{county}</h5>
+                <LocationLinks>
+                  {countyLocations.map((location) => (
+                    <React.Fragment key={location.slug}>
+                      <li>
+                        <Link href={`/locations/${location.slug}`}>
+                          Flooring in {location.name}
+                        </Link>
+                      </li>
+                      {/* Include top service combinations for major cities */}
+                      {location.population && parseInt(location.population.replace(/,/g, '')) > 200000 && (
+                        <li>
+                          <Link href={`/services/lvt-installation/${location.slug}`}>
+                            LVT Installation {location.name}
+                          </Link>
+                        </li>
+                      )}
+                    </React.Fragment>
+                  ))}
+                </LocationLinks>
+              </LocationGroup>
+            ))}
+          </LocationGrid>
+        </LocationLinksSection>
 
         <FooterBottom>
           <p>&copy; {currentYear} William Johnson Flooring. All rights reserved. | Professional flooring services across the UK.</p>
