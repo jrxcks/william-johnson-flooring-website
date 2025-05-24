@@ -9,11 +9,25 @@ export const metadata: Metadata = {
     default: 'William Johnson Flooring | Professional Flooring Installation',
     template: '%s | William Johnson Flooring'
   },
-  description: 'Expert flooring installation across the Midlands & UK. LVT, hardwood, carpet & commercial flooring specialists. 25+ years experience. Free quotes available.',
+  description: 'Expert flooring installation across the Midlands & UK. LVT, hardwood, carpet & commercial flooring specialists. 10+ years experience. Free quotes available.',
   keywords: ['flooring installation', 'LVT flooring', 'hardwood flooring', 'carpet installation', 'commercial flooring', 'Midlands flooring', 'UK flooring'],
   authors: [{ name: 'William Johnson Flooring' }],
   creator: 'William Johnson Flooring',
   publisher: 'William Johnson Flooring',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+    ],
+  },
+  manifest: '/site.webmanifest',
   robots: {
     index: true,
     follow: true,
@@ -30,13 +44,22 @@ export const metadata: Metadata = {
     locale: 'en_GB',
     url: 'https://williamjohnsonflooring.com',
     title: 'William Johnson Flooring | Professional Flooring Installation',
-    description: 'Expert flooring installation across the Midlands & UK. LVT, hardwood, carpet & commercial flooring specialists. 25+ years experience.',
+    description: 'Expert flooring installation across the Midlands & UK. LVT, hardwood, carpet & commercial flooring specialists. 10+ years experience.',
     siteName: 'William Johnson Flooring',
+    images: [
+      {
+        url: '/images/logos/logo.svg',
+        width: 1200,
+        height: 630,
+        alt: 'William Johnson Flooring Logo',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'William Johnson Flooring | Professional Flooring Installation',
     description: 'Expert flooring installation across the Midlands & UK. LVT, hardwood, carpet & commercial flooring specialists.',
+    images: ['/images/logos/logo.svg'],
   },
 }
 
